@@ -23,10 +23,8 @@ pip install torch pygame
 The project is organized into the following files and directories:
 
 - `agent.py`: Contains the implementation of the AI agent using a reinforcement learning algorithm.
-- `environment.py`: Implements the Snake game environment using Pygame.
-- `train.py`: The main script to train the AI agent.
-- `play.py`: Allows you to watch a trained AI agent play the game.
-- `model.pth`: The trained model weights.
+- `game.py`: Implements the Snake game environment using Pygame.
+- `helper.py`: The main script to train the AI agent.
 - `README.md`: Provides information about the project.
 
 ## Training the AI Agent
@@ -53,7 +51,7 @@ To watch the trained AI agent play the Snake game, execute the following steps:
 3. Run the following command:
 
 ```bash
-python play.py
+python agent.py
 ```
 
 4. The game window will open, and you can observe the AI agent playing the Snake game.
