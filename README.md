@@ -8,7 +8,7 @@ This project aims to train an AI agent to play the game of Snake using reinforce
 
 Before getting started, make sure you have the following dependencies installed:
 
-- Python 3.x
+- Python 3
 - PyTorch
 - Pygame
 
